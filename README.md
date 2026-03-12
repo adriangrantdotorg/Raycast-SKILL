@@ -75,9 +75,9 @@ git clone https://github.com/adriangrantdotorg/Raycast-SKILL.git ~/.gemini/skill
 
 ---
 
-## 💡 Usage Examples
+## 💡 Usage Example
 
-Once installed, your AI agent will automatically apply best practices when working with Raycast. Here are some prompts to try:
+Once installed, your AI agent will automatically apply best practices when working with Raycast. Here’s an example prompt to try:
 
 ### Automation & Local Scripts
 
