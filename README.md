@@ -13,12 +13,9 @@
 [![Agent Skills Standard](https://img.shields.io/badge/Agent%20Skills-Standard-blue.svg)](https://github.com/anthropics/skills)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-
 ---
 
 ## ✨ Skill Overview
-
-### 📁 [`raycast`](skills/raycast/SKILL.md)
 
 Equips AI agents with crucial patterns and preferences for developing within the Raycast ecosystem:
 
@@ -60,13 +57,13 @@ This skill collection follows the [Agent Skills open standard](https://github.co
 
 ```bash
 # For Google Antigravity (project skills — place in your project's .agent folder)
-git clone https://github.com/adriangrantdotorg/Raycast-SKILLS.git .agent/skills
+git clone https://github.com/adriangrantdotorg/Raycast-SKILL.git .agent/skills
 
 # For Claude Code (global skills)
-git clone https://github.com/adriangrantdotorg/Raycast-SKILLS.git ~/.claude/skills/raycast
+git clone https://github.com/adriangrantdotorg/Raycast-SKILL.git ~/.claude/skills/raycast
 
 # For Gemini CLI (global skills)
-git clone https://github.com/adriangrantdotorg/Raycast-SKILLS.git ~/.gemini/skills/raycast
+git clone https://github.com/adriangrantdotorg/Raycast-SKILL.git ~/.gemini/skills/raycast
 ```
 
 #### **Option 2: Manual Installation**
@@ -94,7 +91,6 @@ The agent will:
 - Structure the script execution safely: `exec('osascript -e \'tell application "Keyboard Maestro Engine" to do script "MACRO_ID"\'')`.
 - Handle clipboard operations using the native `@raycast/api` Clipboard utilities.
 
-
 ---
 
 ## 🤝 Contributing
@@ -105,8 +101,8 @@ Contributions are welcome! Whether you're adding new skills, refining existing p
 
 ```bash
 # Fork and clone the repository
-git clone https://github.com/adriangrantdotorg/Raycast-SKILLS.git
-cd Raycast-SKILLS
+git clone https://github.com/adriangrantdotorg/Raycast-SKILL.git
+cd Raycast-SKILL
 
 # Create a feature branch
 git checkout -b feature/your-skill-or-fix
@@ -136,8 +132,8 @@ git push origin feature/your-skill-or-fix
 
 Encountered a problem or have a suggestion?
 
-- **Bug Reports**: [Open an issue](https://github.com/adriangrantdotorg/Raycast-SKILLS/issues/new?template=bug_report.md)
-- **Feature Requests**: [Request a feature](https://github.com/adriangrantdotorg/Raycast-SKILLS/issues/new?template=feature_request.md)
+- **Bug Reports**: [Open an issue](https://github.com/adriangrantdotorg/Raycast-SKILL/issues/new?template=bug_report.md)
+- **Feature Requests**: [Request a feature](https://github.com/adriangrantdotorg/Raycast-SKILL/issues/new?template=feature_request.md)
 
 ---
 
